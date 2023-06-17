@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7e080b9c4767211086605d58c26d43d7" extends="cmdb_ci" label="PKM CI" max_length="40" name="x_190684_pkmgoinsn_pkm_ci" type="collection"/>
+</database>

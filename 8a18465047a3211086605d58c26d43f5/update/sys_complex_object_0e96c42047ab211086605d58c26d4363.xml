@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4a96c420a4ab2110365e8b5a00b7f763</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8a18465047a3211086605d58c26d43f5</scope_name>
+        <serialized_content>{"FlowDesigner:FD4a96c420a4ab2110365e8b5a00b7f763":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4a96c420a4ab2110365e8b5a00b7f763.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Evolution chain\",\"mandatory\":\"true\",\"child_name\":\"evolution_chain_child0\",\"uiUniqueId\":\"565ed3a6-cd72-4db7-869f-beaf36c28c1b\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD4a96c420a4ab2110365e8b5a00b7f763\",\"child_label\":\"Evolution chain_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a425ea00-7f2b-4f46-938f-371ff3569161\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 01:30:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e96c42047ab211086605d58c26d4363</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD4a96c420a4ab2110365e8b5a00b7f763</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_complex_object_0e96c42047ab211086605d58c26d4363</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 01:36:07</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

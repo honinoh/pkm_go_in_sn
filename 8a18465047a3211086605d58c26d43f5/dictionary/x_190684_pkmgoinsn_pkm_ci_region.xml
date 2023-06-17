@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5f29879047a7211086605d58c26d4346" extends="x_190684_pkmgoinsn_pkm_ci" label="PKM Region" max_length="40" name="x_190684_pkmgoinsn_pkm_ci_region" type="collection"/>
+</database>

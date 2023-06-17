@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ebe90f9047a7211086605d58c26d435c" extends="x_190684_pkmgoinsn_pkm_ci" label="PKM Pokémon" max_length="40" name="x_190684_pkmgoinsn_pkm_ci_mon" type="collection">
+        <element label="Dex" max_length="40" name="dex" type="integer"/>
+        <element label="Region" max_length="32" name="region" read_only="true" reference="x_190684_pkmgoinsn_pkm_ci_region" type="reference"/>
+        <element label="Shadow" max_length="40" name="shadow" read_only="true" type="boolean"/>
+    </element>
+</database>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="83443ed84727211086605d58c26d43b6" extends="sys_import_set_row" label="ISET PVPoke PKM" max_length="40" name="x_190684_pkmgoinsn_iset_pvpoke_pkm" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Attack" label="Attack" max_length="40" name="u_attack" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Buddy Distance" label="Buddy Distance" max_length="40" name="u_buddy_distance" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Charged Move 1" label="Charged Move 1" max_length="40" name="u_charged_move_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Charged Move 1 Count" label="Charged Move 1 Count" max_length="40" name="u_charged_move_1_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Charged Move 2" label="Charged Move 2" max_length="40" name="u_charged_move_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Charged Move 2 Count" label="Charged Move 2 Count" max_length="40" name="u_charged_move_2_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Charged Move Cost" label="Charged Move Cost" max_length="40" name="u_charged_move_cost" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CP" label="CP" max_length="40" name="u_cp" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Defense" label="Defense" max_length="40" name="u_defense" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Dex" label="Dex" max_length="40" name="u_dex" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fast Move" label="Fast Move" max_length="40" name="u_fast_move" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Level" label="Level" max_length="40" name="u_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pokemon" label="Pokemon" max_length="40" name="u_pokemon" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Score" label="Score" max_length="40" name="u_score" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Stamina" label="Stamina" max_length="40" name="u_stamina" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Stat Product" label="Stat Product" max_length="40" name="u_stat_product" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type 1" label="Type 1" max_length="40" name="u_type_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type 2" label="Type 2" max_length="40" name="u_type_2" type="string"/>
+    </element>
+</database>
