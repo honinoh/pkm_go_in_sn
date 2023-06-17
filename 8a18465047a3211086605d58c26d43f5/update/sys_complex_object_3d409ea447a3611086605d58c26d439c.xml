@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD79409ea4e0a3611071799d9f5d4ffa9c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8a18465047a3211086605d58c26d43f5</scope_name>
+        <serialized_content>{"FlowDesigner:FD79409ea4e0a3611071799d9f5d4ffa9c":{"$COCollectionField":[{"item":{"Score":"String","Score.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Score\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"37a1427e-205c-475a-bbe9-619766829e80\"}"},"Dex":"String","Dex.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Dex\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"b339f42f-f782-4654-8139-1fc20b502c11\"}"},"Pokemon":"String","Pokemon.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Pokemon\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"33f1b654-824e-46e6-972a-70c11aa67b00\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"df3bd13e-98ca-438e-84e4-55798d6d8e72\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD79409ea4e0a3611071799d9f5d4ffa9c\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"959361a8-bc85-447f-830a-4ac64c2bcf89\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD79409ea4e0a3611071799d9f5d4ffa9c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Array\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"df3bd13e-98ca-438e-84e4-55798d6d8e72\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD79409ea4e0a3611071799d9f5d4ffa9c\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"959361a8-bc85-447f-830a-4ac64c2bcf89\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 11:32:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d409ea447a3611086605d58c26d439c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD79409ea4e0a3611071799d9f5d4ffa9c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_complex_object_3d409ea447a3611086605d58c26d439c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 12:54:24</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

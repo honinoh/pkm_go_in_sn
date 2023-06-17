@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8463e66cb6e361103886434057dfcdf5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8a18465047a3211086605d58c26d43f5</scope_name>
+        <serialized_content>{"FlowDesigner:FD8463e66cb6e361103886434057dfcdf5":{"$COCollectionField":[{"item":{"Score":"String","Score.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Score\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"b8a09ac1-cf58-4fc4-b485-b407a750b39a\"}"},"Dex":"String","Dex.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Dex\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"f7b9e389-8a8a-4afb-b412-4467dad5ffb2\"}"},"Pokemon":"String","Pokemon.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Pokemon\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4ef0a526-55ae-4910-9323-8c634cad2e99\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"list\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"9d846a9e-698d-43f2-8c5a-549fd665202b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8463e66cb6e361103886434057dfcdf5\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"action\",\"sourceUiUniqueId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ec85bb2f-4758-4b1f-9697-35a77e756eb9\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8463e66cb6e361103886434057dfcdf5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"list\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiUniqueId\":\"9d846a9e-698d-43f2-8c5a-549fd665202b\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD8463e66cb6e361103886434057dfcdf5\",\"child_label\":\"Item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"action\",\"sourceUiUniqueId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ec85bb2f-4758-4b1f-9697-35a77e756eb9\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 12:55:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4863e66c47e3611086605d58c26d43f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FD8463e66cb6e361103886434057dfcdf5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_complex_object_4863e66c47e3611086605d58c26d43f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 12:56:27</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

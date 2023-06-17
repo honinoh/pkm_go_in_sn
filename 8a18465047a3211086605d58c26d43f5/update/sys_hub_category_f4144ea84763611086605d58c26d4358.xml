@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Pokémon Import</name>
+        <order>300</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 10:39:24</sys_created_on>
+        <sys_id>f4144ea84763611086605d58c26d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pokémon Import</sys_name>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_hub_category_f4144ea84763611086605d58c26d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 10:39:24</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4144ea84763611086605d58c26d4358"/>
+</record_update>

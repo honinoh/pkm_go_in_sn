@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4cc716ec92a36110e6168d9a34145a59</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8a18465047a3211086605d58c26d43f5</scope_name>
+        <serialized_content>{"FlowDesigner:FD4cc716ec92a36110e6168d9a34145a59":{"$COCollectionField":[{"item":{"Score":"String","Score.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Score\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"b8a09ac1-cf58-4fc4-b485-b407a750b39a\"}"},"Dex":"String","Dex.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Dex\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"f7b9e389-8a8a-4afb-b412-4467dad5ffb2\"}"},"Pokemon":"String","Pokemon.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Pokemon\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4ef0a526-55ae-4910-9323-8c634cad2e99\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"max_rows\":null,\"child_hint\":\"\",\"child_maxsize\":\"\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD4cc716ec92a36110e6168d9a34145a59\",\"child_label\":\"Item\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"list\",\"uiUniqueId\":\"4606ee5a-bee9-42e4-8b7e-87597705a4d6\",\"child_type_label\":\"Object\",\"sourceType\":\"action\",\"sourceUiUniqueId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"child_uiUniqueId\":\"ec85bb2f-4758-4b1f-9697-35a77e756eb9\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4cc716ec92a36110e6168d9a34145a59.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"max_rows\":null,\"child_hint\":\"\",\"child_maxsize\":\"\",\"mandatory\":\"false\",\"child_name\":\"item\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD4cc716ec92a36110e6168d9a34145a59\",\"child_label\":\"Item\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"list\",\"uiUniqueId\":\"4606ee5a-bee9-42e4-8b7e-87597705a4d6\",\"child_type_label\":\"Object\",\"sourceType\":\"action\",\"sourceUiUniqueId\":\"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"child_uiUniqueId\":\"ec85bb2f-4758-4b1f-9697-35a77e756eb9\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 12:05:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00c716ec47a3611086605d58c26d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD4cc716ec92a36110e6168d9a34145a59</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_complex_object_00c716ec47a3611086605d58c26d435a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 12:05:06</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

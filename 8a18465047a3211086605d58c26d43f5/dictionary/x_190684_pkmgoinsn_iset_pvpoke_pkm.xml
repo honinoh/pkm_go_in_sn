@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="83443ed84727211086605d58c26d43b6" extends="sys_import_set_row" label="ISET PVPoke PKM" max_length="40" name="x_190684_pkmgoinsn_iset_pvpoke_pkm" type="collection">
+        <element label="Format ID" max_length="40" name="format_id" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Attack" label="Attack" max_length="40" name="u_attack" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Buddy Distance" label="Buddy Distance" max_length="40" name="u_buddy_distance" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Charged Move 1" label="Charged Move 1" max_length="40" name="u_charged_move_1" type="string"/>

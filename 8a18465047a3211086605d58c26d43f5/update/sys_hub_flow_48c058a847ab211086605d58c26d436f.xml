@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Pokémon GBL">91a0d02c47ab211086605d58c26d43e5</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>pokmon_gbl_format__pvpoke_file_import</internal_name>
+        <label_cache>[{"name":"subflow.gbl_format","label":"Input➛GBL Format","reference":"x_190684_pkmgoinsn_pkm_ci_gbl_format","reference_display":"PKM Go Battle League Format","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c7afb006-5e91-4a8e-ae44-50431f11c458","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"a8590dbd-f111-4910-b45e-526aeab7d8dd.parameter","label":"2 - Look Up Attachment➛Attachment Sys ID","reference_display":"Attachment Sys ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b143af44-a3d5-4f5f-9429-760e819835ec"}},{"name":"749fb673-8ab6-4df3-881e-3ef874cbe891.list","label":"3 - Pokémon GBL Format - PvPoke File Import Procedure - Load File➛list","type":"array.object","base_type":"array.object","attributes":{"sourceId":"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285","pwd2droppable":"true","child_name":"item","uiUniqueId":"9d846a9e-698d-43f2-8c5a-549fd665202b","uiTypeLabel":"Array.Object","co_type_name":"FD48e7d6ec84a361107c9e5e30269644b3","child_label":"Item","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"action","sourceUiUniqueId":"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285","uiType":"array.object","child_type":"object","child_uiUniqueId":"959361a8-bc85-447f-830a-4ac64c2bcf89"}}]</label_cache>
+        <master_snapshot>4b229c6c47ab211086605d58c26d4383</master_snapshot>
+        <name>Pokémon GBL Format - PvPoke File Import Procedure</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:15:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48c058a847ab211086605d58c26d436f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Pokémon GBL Format - PvPoke File Import Procedure</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_hub_flow_48c058a847ab211086605d58c26d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:31</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=48c058a847ab211086605d58c26d436f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=48c058a847ab211086605d58c26d436f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=48c058a847ab211086605d58c26d436f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=48c058a847ab211086605d58c26d436f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=48c058a847ab211086605d58c26d436f^sys_idNOT IN80c058a847ab211086605d58c26d4370"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>48c058a847ab211086605d58c26d436f</id>
+        <name>Pokémon GBL Format - PvPoke File Import</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:15:16</sys_created_on>
+        <sys_id>80c058a847ab211086605d58c26d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:15:16</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=80c058a847ab211086605d58c26d4370"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=48c058a847ab211086605d58c26d436f^sys_idNOT INfbe01ce847ab211086605d58c26d43dd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c7afb006-5e91-4a8e-ae44-50431f11c458</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_190684_pkmgoinsn_pkm_ci_gbl_format</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gbl_format</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>GBL Format</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</model>
+        <model_id>48c058a847ab211086605d58c26d436f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_48c058a847ab211086605d58c26d436f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_190684_pkmgoinsn_pkm_ci_gbl_format">x_190684_pkmgoinsn_pkm_ci_gbl_format</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:16:05</sys_created_on>
+        <sys_id>fbe01ce847ab211086605d58c26d43dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:16:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=48c058a847ab211086605d58c26d436f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=48c058a847ab211086605d58c26d436f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=48c058a847ab211086605d58c26d436f^sys_idNOT IN58779eac47a3611086605d58c26d4391"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Attachment">6ecdee36935023005e69925cf67ffb47</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 12:03:45</sys_created_on>
+        <sys_id>58779eac47a3611086605d58c26d4391</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:07:17</sys_updated_on>
+        <ui_id>a8590dbd-f111-4910-b45e-526aeab7d8dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=58779eac47a3611086605d58c26d4391"/>
+    <sys_element_mapping action="delete_multiple" query="id=58779eac47a3611086605d58c26d4391"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record</field>
+        <id>58779eac47a3611086605d58c26d4391</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 12:03:45</sys_created_on>
+        <sys_id>dc779eac47a3611086605d58c26d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 12:03:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47</table>
+        <value>{{subflow.gbl_format}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58779eac47a3611086605d58c26d4391"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=58779eac47a3611086605d58c26d4391"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=48c058a847ab211086605d58c26d436f^sys_idNOT IN4ce466204727611086605d58c26d434e,b6229c6c47ab211086605d58c26d433d,cce466204727611086605d58c26d4340"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</flow>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <parent_ui_id/>
+        <subflow display_value="Pokémon GBL Format - PvPoke File Import Procedure - Import Rows">5e05922c47a3611086605d58c26d43d5</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>4ce466204727611086605d58c26d434e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:31</sys_updated_on>
+        <ui_id>a41784c5-8d1a-4463-816c-129a63ba0f88</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4ce466204727611086605d58c26d434e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>4ce466204727611086605d58c26d434e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>88e466204727611086605d58c26d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">08e466204727611086605d58c26d434f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4ce466204727611086605d58c26d434e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>format</field>
+        <id>4ce466204727611086605d58c26d434e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>c8e466204727611086605d58c26d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_5e05922c47a3611086605d58c26d43d5</table>
+        <value>{{subflow.gbl_format}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list</field>
+        <id>4ce466204727611086605d58c26d434e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>8ce466204727611086605d58c26d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_5e05922c47a3611086605d58c26d43d5</table>
+        <value>{{749fb673-8ab6-4df3-881e-3ef874cbe891.list}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>4ce466204727611086605d58c26d434e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>08e466204727611086605d58c26d435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_4ce466204727611086605d58c26d434e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_4ce466204727611086605d58c26d434e^id=4ce466204727611086605d58c26d434e"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=4ce466204727611086605d58c26d434e^sys_idNOT IN08e466204727611086605d58c26d434f"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">4ce466204727611086605d58c26d434e</model>
+        <model_id>4ce466204727611086605d58c26d434e</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_4ce466204727611086605d58c26d434e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>08e466204727611086605d58c26d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4ce466204727611086605d58c26d434e"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</flow>
+        <inputs/>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Pokémon GBL Mons cleanup">afe1586c47ab211086605d58c26d4302</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:28</sys_created_on>
+        <sys_id>b6229c6c47ab211086605d58c26d433d</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:30</sys_updated_on>
+        <ui_id>fc2e50fa-04cc-4b78-9679-74ee41404f7e</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b6229c6c47ab211086605d58c26d433d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>b6229c6c47ab211086605d58c26d433d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:28</sys_created_on>
+        <sys_id>b2229c6c47ab211086605d58c26d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">3e229c6c47ab211086605d58c26d433e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b6229c6c47ab211086605d58c26d433d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>gbl_format</field>
+        <id>b6229c6c47ab211086605d58c26d433d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:28</sys_created_on>
+        <sys_id>b6229c6c47ab211086605d58c26d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_afe1586c47ab211086605d58c26d4302</table>
+        <value>{{subflow.gbl_format}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>b6229c6c47ab211086605d58c26d433d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:28</sys_created_on>
+        <sys_id>32229c6c47ab211086605d58c26d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:28</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_b6229c6c47ab211086605d58c26d433d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_b6229c6c47ab211086605d58c26d433d^id=b6229c6c47ab211086605d58c26d433d"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=b6229c6c47ab211086605d58c26d433d^sys_idNOT IN3e229c6c47ab211086605d58c26d433e"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">b6229c6c47ab211086605d58c26d433d</model>
+        <model_id>b6229c6c47ab211086605d58c26d433d</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_b6229c6c47ab211086605d58c26d433d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:28</sys_created_on>
+        <sys_id>3e229c6c47ab211086605d58c26d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b6229c6c47ab211086605d58c26d433d"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</flow>
+        <inputs/>
+        <inputs/>
+        <order>3</order>
+        <parent_ui_id/>
+        <subflow display_value="Pokémon GBL Format - PvPoke File Import Procedure - Load File">30551a2c47a3611086605d58c26d439a</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>cce466204727611086605d58c26d4340</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:31</sys_updated_on>
+        <ui_id>749fb673-8ab6-4df3-881e-3ef874cbe891</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cce466204727611086605d58c26d4340"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>cce466204727611086605d58c26d4340</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>08e466204727611086605d58c26d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">8ce466204727611086605d58c26d4341</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cce466204727611086605d58c26d4340"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file</field>
+        <id>cce466204727611086605d58c26d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>c8e466204727611086605d58c26d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_30551a2c47a3611086605d58c26d439a</table>
+        <value>{{a8590dbd-f111-4910-b45e-526aeab7d8dd.parameter}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>cce466204727611086605d58c26d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>84e466204727611086605d58c26d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_cce466204727611086605d58c26d4340</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_cce466204727611086605d58c26d4340^id=cce466204727611086605d58c26d4340"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=cce466204727611086605d58c26d4340^sys_idNOT IN8ce466204727611086605d58c26d4341"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">cce466204727611086605d58c26d4340</model>
+        <model_id>cce466204727611086605d58c26d4340</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_cce466204727611086605d58c26d4340</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:27</sys_created_on>
+        <sys_id>8ce466204727611086605d58c26d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cce466204727611086605d58c26d4340"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=48c058a847ab211086605d58c26d436f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=48c058a847ab211086605d58c26d436f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=48c058a847ab211086605d58c26d436f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_48c058a847ab211086605d58c26d436f^sys_idNOT INf3e0182c47ab211086605d58c26d43b0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>gbl_format</element>
+        <help/>
+        <hint/>
+        <label>GBL Format</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_48c058a847ab211086605d58c26d436f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:16:05</sys_created_on>
+        <sys_id>f3e0182c47ab211086605d58c26d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:16:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_48c058a847ab211086605d58c26d436f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_48c058a847ab211086605d58c26d436f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_48c058a847ab211086605d58c26d436f"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=48c058a847ab211086605d58c26d436f"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=48c058a847ab211086605d58c26d436f^sys_idNOT INc7229c6c47ab211086605d58c26d43a9"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"c7229c6c47ab211086605d58c26d43a9","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</plan_id>
+        <snapshot>4ff5ee604727611086605d58c26d437d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7229c6c47ab211086605d58c26d43a9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:30</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Pokémon GBL">91a0d02c47ab211086605d58c26d43e5</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>pokmon_gbl_format__pvpoke_file_import</internal_name>
+        <label_cache>[{"name":"subflow.gbl_format","label":"Input➛GBL Format","reference":"x_190684_pkmgoinsn_pkm_ci_gbl_format","reference_display":"PKM Go Battle League Format","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c7afb006-5e91-4a8e-ae44-50431f11c458","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"a8590dbd-f111-4910-b45e-526aeab7d8dd.parameter","label":"2 - Look Up Attachment➛Attachment Sys ID","reference_display":"Attachment Sys ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b143af44-a3d5-4f5f-9429-760e819835ec"}},{"name":"749fb673-8ab6-4df3-881e-3ef874cbe891.list","label":"3 - Pokémon GBL Format - PvPoke File Import Procedure - Load File➛list","type":"array.object","base_type":"array.object","attributes":{"sourceId":"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285","pwd2droppable":"true","child_name":"item","uiUniqueId":"9d846a9e-698d-43f2-8c5a-549fd665202b","uiTypeLabel":"Array.Object","co_type_name":"FD48e7d6ec84a361107c9e5e30269644b3","child_label":"Item","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"action","sourceUiUniqueId":"38b820b4-d4d7-4d0d-8bc0-806cfc3d8285","uiType":"array.object","child_type":"object","child_uiUniqueId":"959361a8-bc85-447f-830a-4ac64c2bcf89"}}]</label_cache>
+        <master>true</master>
+        <name>Pokémon GBL Format - PvPoke File Import Procedure</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">48c058a847ab211086605d58c26d436f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4b229c6c47ab211086605d58c26d4383</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:30</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4b229c6c47ab211086605d58c26d4383^sys_idNOT INc3229c6c47ab211086605d58c26d4384"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4b229c6c47ab211086605d58c26d4383</id>
+        <name>Pokémon GBL Format - PvPoke File Import</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>c3229c6c47ab211086605d58c26d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c3229c6c47ab211086605d58c26d4384"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4b229c6c47ab211086605d58c26d4383^sys_idNOT IN07229c6c47ab211086605d58c26d4385"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=c7afb006-5e91-4a8e-ae44-50431f11c458</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_190684_pkmgoinsn_pkm_ci_gbl_format</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gbl_format</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>GBL Format</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Pokémon GBL Format - PvPoke File Import Procedure">4b229c6c47ab211086605d58c26d4383</model>
+        <model_id>4b229c6c47ab211086605d58c26d4383</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4b229c6c47ab211086605d58c26d4383</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_190684_pkmgoinsn_pkm_ci_gbl_format">x_190684_pkmgoinsn_pkm_ci_gbl_format</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>07229c6c47ab211086605d58c26d4385</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4b229c6c47ab211086605d58c26d4383^sys_idNOT INcd2b96e047e3611086605d58c26d4349"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Attachment">6ecdee36935023005e69925cf67ffb47</action_type>
+        <action_type_parent display_value="Look Up Attachment">aabdae36935023005e69925cf67ffb5e</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">4b229c6c47ab211086605d58c26d4383</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 12:19:54</sys_created_on>
+        <sys_id>cd2b96e047e3611086605d58c26d4349</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <ui_id>a8590dbd-f111-4910-b45e-526aeab7d8dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cd2b96e047e3611086605d58c26d4349"/>
+    <sys_element_mapping action="delete_multiple" query="id=cd2b96e047e3611086605d58c26d4349"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record</field>
+        <id>cd2b96e047e3611086605d58c26d4349</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 12:19:54</sys_created_on>
+        <sys_id>852b96e047e3611086605d58c26d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 12:19:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47</table>
+        <value>{{subflow.gbl_format}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cd2b96e047e3611086605d58c26d4349"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cd2b96e047e3611086605d58c26d4349"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4b229c6c47ab211086605d58c26d4383^sys_idNOT IN6ce4a6204727611086605d58c26d4311,83229c6c47ab211086605d58c26d4395,f0e4a6204727611086605d58c26d431e"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">4b229c6c47ab211086605d58c26d4383</flow>
+        <inputs/>
+        <inputs/>
+        <order>3</order>
+        <parent_ui_id/>
+        <subflow display_value="Pokémon GBL Format - PvPoke File Import Procedure - Load File">30551a2c47a3611086605d58c26d439a</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>6ce4a6204727611086605d58c26d4311</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <ui_id>749fb673-8ab6-4df3-881e-3ef874cbe891</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6ce4a6204727611086605d58c26d4311"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>6ce4a6204727611086605d58c26d4311</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>bce4a6204727611086605d58c26d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">28e4a6204727611086605d58c26d4312</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6ce4a6204727611086605d58c26d4311"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file</field>
+        <id>6ce4a6204727611086605d58c26d4311</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>24e4a6204727611086605d58c26d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_30551a2c47a3611086605d58c26d439a</table>
+        <value>{{a8590dbd-f111-4910-b45e-526aeab7d8dd.parameter}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>6ce4a6204727611086605d58c26d4311</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>3ce4a6204727611086605d58c26d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_6ce4a6204727611086605d58c26d4311</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_6ce4a6204727611086605d58c26d4311^id=6ce4a6204727611086605d58c26d4311"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=6ce4a6204727611086605d58c26d4311^sys_idNOT IN28e4a6204727611086605d58c26d4312"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">6ce4a6204727611086605d58c26d4311</model>
+        <model_id>6ce4a6204727611086605d58c26d4311</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_6ce4a6204727611086605d58c26d4311</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>28e4a6204727611086605d58c26d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6ce4a6204727611086605d58c26d4311"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">4b229c6c47ab211086605d58c26d4383</flow>
+        <inputs/>
+        <inputs/>
+        <order>1</order>
+        <parent_ui_id/>
+        <subflow display_value="Pokémon GBL Mons cleanup">afe1586c47ab211086605d58c26d4302</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>83229c6c47ab211086605d58c26d4395</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <ui_id>fc2e50fa-04cc-4b78-9679-74ee41404f7e</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=83229c6c47ab211086605d58c26d4395"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>83229c6c47ab211086605d58c26d4395</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>0f229c6c47ab211086605d58c26d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">4f229c6c47ab211086605d58c26d4395</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=83229c6c47ab211086605d58c26d4395"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>gbl_format</field>
+        <id>83229c6c47ab211086605d58c26d4395</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>83229c6c47ab211086605d58c26d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_afe1586c47ab211086605d58c26d4302</table>
+        <value>{{subflow.gbl_format}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>83229c6c47ab211086605d58c26d4395</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>8b229c6c47ab211086605d58c26d43a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_83229c6c47ab211086605d58c26d4395</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_83229c6c47ab211086605d58c26d4395^id=83229c6c47ab211086605d58c26d4395"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=83229c6c47ab211086605d58c26d4395^sys_idNOT IN4f229c6c47ab211086605d58c26d4395"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">83229c6c47ab211086605d58c26d4395</model>
+        <model_id>83229c6c47ab211086605d58c26d4395</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_83229c6c47ab211086605d58c26d4395</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>4f229c6c47ab211086605d58c26d4395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=83229c6c47ab211086605d58c26d4395"/>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Pokémon GBL Format - PvPoke File Import Procedure">4b229c6c47ab211086605d58c26d4383</flow>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <parent_ui_id/>
+        <subflow display_value="Pokémon GBL Format - PvPoke File Import Procedure - Import Rows">5e05922c47a3611086605d58c26d43d5</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>f0e4a6204727611086605d58c26d431e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <ui_id>a41784c5-8d1a-4463-816c-129a63ba0f88</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0e4a6204727611086605d58c26d431e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>f0e4a6204727611086605d58c26d431e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>b8e4a6204727611086605d58c26d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">bce4a6204727611086605d58c26d431e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f0e4a6204727611086605d58c26d431e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>format</field>
+        <id>f0e4a6204727611086605d58c26d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>7ce4a6204727611086605d58c26d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_5e05922c47a3611086605d58c26d43d5</table>
+        <value>{{subflow.gbl_format}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>list</field>
+        <id>f0e4a6204727611086605d58c26d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>30e4a6204727611086605d58c26d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_5e05922c47a3611086605d58c26d43d5</table>
+        <value>{{749fb673-8ab6-4df3-881e-3ef874cbe891.list}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>f0e4a6204727611086605d58c26d431e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>38e4a6204727611086605d58c26d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_f0e4a6204727611086605d58c26d431e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_f0e4a6204727611086605d58c26d431e^id=f0e4a6204727611086605d58c26d431e"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=f0e4a6204727611086605d58c26d431e^sys_idNOT INbce4a6204727611086605d58c26d431e"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">f0e4a6204727611086605d58c26d431e</model>
+        <model_id>f0e4a6204727611086605d58c26d431e</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_f0e4a6204727611086605d58c26d431e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 13:02:29</sys_created_on>
+        <sys_id>bce4a6204727611086605d58c26d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 13:02:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f0e4a6204727611086605d58c26d431e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4b229c6c47ab211086605d58c26d4383"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4b229c6c47ab211086605d58c26d4383^sys_idNOT INc3229c6c47ab211086605d58c26d438f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>gbl_format</element>
+        <help/>
+        <hint/>
+        <label>GBL Format</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4b229c6c47ab211086605d58c26d4383</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 02:21:29</sys_created_on>
+        <sys_id>c3229c6c47ab211086605d58c26d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 02:21:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4b229c6c47ab211086605d58c26d4383"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4b229c6c47ab211086605d58c26d4383"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4b229c6c47ab211086605d58c26d4383"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>48c058a847ab211086605d58c26d436f</sys_id>
+        <latest_snapshot>4b229c6c47ab211086605d58c26d4383</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch1-03-01-2023_03-13-2023_1716.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

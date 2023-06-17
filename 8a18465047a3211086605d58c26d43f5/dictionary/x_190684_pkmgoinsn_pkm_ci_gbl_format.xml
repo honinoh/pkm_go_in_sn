@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="22b908e047ab211086605d58c26d4349" extends="x_190684_pkmgoinsn_pkm_ci" label="PKM Go Battle League Format" max_length="40" name="x_190684_pkmgoinsn_pkm_ci_gbl_format" type="collection"/>
+</database>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0f4d4ee0a7a36110031d60c2ed9a5df9</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>8a18465047a3211086605d58c26d43f5</scope_name>
+        <serialized_content>{"FlowDesigner:FD0f4d4ee0a7a36110031d60c2ed9a5df9":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0f4d4ee0a7a36110031d60c2ed9a5df9.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"d5b3ebed-d216-4b51-b77a-547f435f83e5\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"List\",\"mandatory\":\"true\",\"child_name\":\"item\",\"uiUniqueId\":\"f2c60f4f-c099-406b-97db-d4764e754c52\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0f4d4ee0a7a36110031d60c2ed9a5df9\",\"child_label\":\"item\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"17333e4d-bea5-489f-a057-be7b22596d7c\",\"sourceType\":\"step\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ec85bb2f-4758-4b1f-9697-35a77e756eb9\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 11:19:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf4d4ee047a3611086605d58c26d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD0f4d4ee0a7a36110031d60c2ed9a5df9</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_complex_object_cf4d4ee047a3611086605d58c26d43f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 11:19:26</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

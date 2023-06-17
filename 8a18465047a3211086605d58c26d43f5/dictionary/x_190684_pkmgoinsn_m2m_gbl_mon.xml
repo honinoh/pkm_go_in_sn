@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b37c00e447ab211086605d58c26d43ea" label="PKM GBL Mon" max_length="40" name="x_190684_pkmgoinsn_m2m_gbl_mon" type="collection">
+        <element attributes="scale=2" label="Score" max_length="20" name="score" type="decimal"/>
+        <element attributes="encode_utf8=false" label="PKM Go Battle League Format" max_length="32" name="x_190684_pkmgoinsn_pkm_ci_gbl_format" reference="x_190684_pkmgoinsn_pkm_ci_gbl_format" type="reference"/>
+        <element attributes="encode_utf8=false" label="PKM Pokémon" max_length="32" name="x_190684_pkmgoinsn_pkm_ci_mon" reference="x_190684_pkmgoinsn_pkm_ci_mon" type="reference"/>
+        <index name="index">
+            <element name="x_190684_pkmgoinsn_pkm_ci_mon"/>
+        </index>
+    </element>
+</database>
