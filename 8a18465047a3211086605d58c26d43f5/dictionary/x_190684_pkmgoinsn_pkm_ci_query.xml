@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9ac107e447a7611086605d58c26d43d7" extends="x_190684_pkmgoinsn_pkm_ci" label="PKM Query" max_length="40" name="x_190684_pkmgoinsn_pkm_ci_query" type="collection">
+        <element dependent="x_condition_table" dependent_on_field="x_condition_table" label="Conditions" max_length="4000" name="x_conditions" type="conditions" use_dependent_field="true"/>
+        <element default="x_190684_pkmgoinsn_m2m_gbl_mon" label="Condition table" max_length="80" name="x_condition_table" type="table_name"/>
+    </element>
+</database>

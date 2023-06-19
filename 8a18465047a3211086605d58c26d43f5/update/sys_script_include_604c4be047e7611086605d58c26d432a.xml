@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_190684_pkmgoinsn.pkmQueryUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>pkmQueryUtils</name>
+        <script><![CDATA[var pkmQueryUtils = Class.create();
+
+pkmQueryUtils.prototype = {
+
+    TBL: {
+        QUERY: 'x_190684_pkmgoinsn_pkm_ci_query',
+        GBLMON: 'x_190684_pkmgoinsn_m2m_gbl_mon',
+        PKMON: 'x_190684_pkmgoinsn_pkm_ci_mon'
+
+    },
+
+    type: 'pkmQueryUtils',
+
+    initialize: function(queryID) {
+        this.GR_QUERY = new GlideRecord(this.TBL.QUERY);
+        this.GR_QUERY.get(queryID);
+    },
+
+    generateSearchString: function() {
+
+        if (!this.GR_QUERY.isValidRecord())
+            return 'invalid record';
+
+        if (!this.GR_QUERY['x_conditions'])
+            return 'no conditions';
+
+        var collectedIDs = this._getDexIDs(this.GR_QUERY['x_conditions'] + '');
+		var prefix = gs.nil(this.GR_QUERY['asset_tag']) ? '' : this.GR_QUERY['asset_tag'];
+
+        return  prefix + collectedIDs;
+
+    },
+
+    _getDexIDs: function(condition_string) {
+
+        var dexIDList = [];
+				
+        var gblmon = new GlideRecord(this.TBL.GBLMON);
+        gblmon.addEncodedQuery(condition_string);
+        gblmon.query();
+
+        while (gblmon.next()) {
+
+            gblmon[this.TBL.PKMON]['model_number']
+                .split(',')
+                .forEach(evo => dexIDList.push(evo));
+
+        }
+
+        return [...new Set(dexIDList)];
+    }
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-17 15:54:56</sys_created_on>
+        <sys_id>604c4be047e7611086605d58c26d432a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>pkmQueryUtils</sys_name>
+        <sys_package display_value="Pokémon Go Tools" source="x_190684_pkmgoinsn">8a18465047a3211086605d58c26d43f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Pokémon Go Tools">8a18465047a3211086605d58c26d43f5</sys_scope>
+        <sys_update_name>sys_script_include_604c4be047e7611086605d58c26d432a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-17 17:33:44</sys_updated_on>
+    </sys_script_include>
+</record_update>
